@@ -195,15 +195,14 @@
         <div class="col-md-8">
 
           <form 
-            id="contactForm" 
-            action="https://formsubmit.co/el/yidadi" 
+            id="contactForm"
+            action="https://api.web3forms.com/submit"
             method="POST">
 
-            <!-- FormSubmit yashirin sozlamalar -->
-            <input type="hidden" name="_captcha" value="false">
-            <input type="hidden" name="_template" value="box">
-            <input type="hidden" name="_subject" value="Yangi Xabar Portfolio Saytidan!">
-            <input type="hidden" name="_next" value="https://your-portfolio-site.com/success.html">
+            <!-- Web3Forms Access Key -->
+            <input type="hidden" name="access_key" value="47561557-d928-4bd6-9005-bf0dbbe5ff30">
+            <!-- Anti-spam (honeypot) -->
+            <input type="checkbox" name="botcheck" style="display:none;">
 
             <div class="mb-3">
               <label for="name" class="form-label">Ism</label>
