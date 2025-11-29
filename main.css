@@ -1,0 +1,183 @@
+body {
+  background-color: #0d1117 !important;
+  color: #e6edf3;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #161b22 !important;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 20px 50px;
+  transition: 0.3s;
+}
+
+.navbar.scrolled {
+  background: rgba(0,0,0,0.85) !important;
+  backdrop-filter: blur(6px);
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+
+.navbar-brand span {
+  color: #e6edf3;
+}
+
+.nav-link {
+  color: #8b949e;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #75510e;
+}
+
+.nav-link.active {
+  color: #75510e !important;
+}
+
+.navbar-brand img {
+  border-radius: 50%;
+  filter: brightness(0.9);
+}
+
+.container > button {
+  background-color: #75510e;
+;
+}
+
+/* HERO SECTION */
+.hero-section {
+    padding: 120px 0;
+    background-color: #0d1117;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #e6edf3;
+}
+
+.hero-subtitle {
+    font-size: 28px;
+    font-weight: 500;
+    color: #58a6ff;
+}
+
+.hero-desc {
+    color: #8b949e;
+    font-size: 16px;
+    max-width: 480px;
+}
+
+.highlight {
+  color: #f1c40f;
+}
+
+.profile-img {
+    width: 280px;
+    padding: 5px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+}
+
+.profile-img img {
+    width: 100%;
+    border-radius: 18px;
+    display: block;
+}
+
+
+/* ABOUT-ME */
+.hero-img {
+  width: 85%;
+  max-width: 420px;
+  filter: drop-shadow(0 0 25px #58a6ff55);
+}
+
+.about-img {
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+}
+
+.about-text {
+  color: #e6edf3;
+  line-height: 1.6;
+}
+
+/* SKILLS SECTION */
+
+.skill-icon {
+  font-size: 50px;
+  color: #f2b01e;
+}
+
+/* PROJECT SECTION */
+
+.project-card > img {
+  background-color:#ddd;
+  width: 300px;
+  height: 150px;
+}
+.project-card h5 {
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.project-card p {
+  color: #555;
+  font-size: 0.9rem;
+  min-height: 60px;
+}
+
+/* POOPUP WINDOW  */
+
+.project-card {
+  background: #11436b65;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+}
+
+.modal-content {
+    background: #0f0f0f;
+    color: #fff;
+    border-radius: 15px;
+    border: 1px solid #333;
+}
+
+.modal-header,
+.modal-footer {
+    background: #154f69;
+}
+
+.btn-close {
+    filter: invert(1);
+}
+
+
+
+/* FOOTER SECTION */
+.footer {
+  background-color: #222;
+  color: #ddd;
+}
+
+.footer a {
+  color: #ddd;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #f2b01e;
+}
+
+
+
+
