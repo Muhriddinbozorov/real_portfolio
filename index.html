@@ -23,7 +23,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link active" href="#home">Bosh Sahifa</a>
+            <a class="nav-link" href="#home">Bosh Sahifa</a>
           </li>
 
           <li class="nav-item">
@@ -129,7 +129,7 @@
         </div>
         <div class="col-md-3 col-sm-6 mb-4 text-center">
           <i class="fa-brands fa-digital-ocean skill-icon mb-2"></i>
-          <h5>DigitaOcean</h5>
+          <h5>DigitalOcean</h5>
         </div>
       </div>
       <hr>
@@ -146,9 +146,9 @@
         <!-- Project 1 -->
         <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
           <div class="project-card p-3 rounded shadow-sm">
-            <img src="images/blog_post.png" class="w-100 rounded mb-3">
-            <h4>New Posts</h4>
-            <p>Zamonaviy va moslashuvchan yangiliklar sayti.</p>
+            <img src="images/landing_page1.png" class="w-100 rounded mb-3">
+            <h4>Landing Page</h4>
+            <p>Zamonaviy va moslashuvchan biznes veb-sahifa.</p>
 
             <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#project1Modal">
               Ko'proq
@@ -161,7 +161,7 @@
           <div class="project-card p-3 rounded shadow-sm">
             <img src="images/debt.jpg" class="w-100 rounded mb-3">
             <h4>Debt Tracker</h4>
-            <p>Qarzlarni nazorat qilish uchun backend loyiha.</p>
+            <p>Personal Finans Monitoring API</p>
 
             <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#project2Modal">
               Ko'proq
@@ -173,7 +173,7 @@
         <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
           <div class="project-card p-3 rounded shadow-sm">
             <img src="images/warehouse.jpg" class="w-100 rounded mb-3">
-            <h4>warehouse</h4>
+            <h4>Warehouse System</h4>
             <p>Omborxona tizimi uchun to'liq API.</p>
 
             <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#project3Modal">
@@ -199,9 +199,7 @@
             action="https://api.web3forms.com/submit"
             method="POST">
 
-            <!-- Web3Forms Access Key -->
             <input type="hidden" name="access_key" value="47561557-d928-4bd6-9005-bf0dbbe5ff30">
-            <!-- Anti-spam (honeypot) -->
             <input type="checkbox" name="botcheck" style="display:none;">
 
             <div class="mb-3">
@@ -223,10 +221,10 @@
             </div>
 
             <button type="submit" class="btn btn-primary">Xabar Jo'natish</button>
-
           </form>
 
-        </div>
+          <div id="form-status" class="mt-3"></div>
+
       </div>
     </div>
   </section>
@@ -261,21 +259,24 @@
       <div class="modal-content">
 
         <div class="modal-header">
-          <h5 class="modal-title">Yangiliklar Web-sayti</h5>
+          <h5 class="modal-title">Landing Page Demo</h5>
           <button class="btn-close" data-bs-dismiss="modal"></button>
         </div>
 
         <div class="modal-body">
-          <img src="images/project1.jpg" class="w-100 rounded mb-3">
+          <img src="images/landing_page+pro.png" class="w-100 rounded mb-3">
           <p>
-            CRM tizimi – mijozlar ma’lumotlarini boshqarish, kontaktlar, xaridlar, va xabar almashinuv tarixini kuzatish uchun yaratilgan platforma.
+            Zamonaviy va minimalistik dizaynga ega demo biznes landing sahifa.
+             Sayt HTML, CSS, Bootstrap va JavaScript yordamida mobil va desktop qurilmalar uchun to‘liq moslashtirilgan.
+              Animatsiyalar, call-to-action bo‘limlari va bo‘limlararo soft-scroll integratsiyasi orqali foydalanuvchi tajribasi inobatga olingan.
+               SEO friendly tuzilma bilan tez yuklanadigan yengil UI/UX yechim.
           </p>
 
-          <h6>🔧 Technologies:</h6>
+          <h6>🔧 Texnologiyalar:</h6>
           <ul>
-            <li>Python / Django</li>
-            <li>PostgreSQL</li>
+            <li>HTML / CSS</li>
             <li>Bootstrap</li>
+            <li>JavaScript</li>
           </ul>
         </div>
 
@@ -294,21 +295,24 @@
       <div class="modal-content">
 
         <div class="modal-header">
-          <h5 class="modal-title">Blog Platform</h5>
+          <h5 class="modal-title">Debt Tracker</h5>
           <button class="btn-close" data-bs-dismiss="modal"></button>
         </div>
 
         <div class="modal-body">
-          <img src="images/project2.jpg" class="w-100 rounded mb-3">
+          <img src="images/debt_2.png" class="w-100 rounded mb-3">
           <p>
-            Markdown, WYSIWYG editor, categories, tags va SEO-friendly URL’lar bilan to‘liq blog tizimi.
+            Qarzlarni boshqarish, monitoring qilish va statistika olish uchun REST API.
+             Foydalanuvchi bo‘yicha sozlamalar, eslatma va qarz turlari bo‘yicha to‘liq CRUD imkoniyatlari qo‘shilgan.
+              FastAPI, JWT autentifikatsiya va SQLAlchemy asosida xavfsiz va yaxshi tuzilgan backend xizmati.
+             Statistika qismi qarzlar umumiy summasi va eslatma kunlari bo‘yicha saralashni qo‘llab-quvvatlaydi.
           </p>
 
-          <h6>🔧 Technologies:</h6>
+          <h6>🔧 Texnologiyalar:</h6>
           <ul>
-            <li>Django</li>
-            <li>SQLite / PostgreSQL</li>
-            <li>Bootstrap 5</li>
+            <li>Python</li>
+            <li>SQLAlchemy / PostgreSQL</li>
+            <li>FastAPI</li>
           </ul>
         </div>
 
@@ -327,21 +331,24 @@
       <div class="modal-content">
 
         <div class="modal-header">
-          <h5 class="modal-title">Portfolio Website</h5>
+          <h5 class="modal-title">Warehouse Management System</h5>
           <button class="btn-close" data-bs-dismiss="modal"></button>
         </div>
 
         <div class="modal-body">
-          <img src="images/project3.jpg" class="w-100 rounded mb-3">
+          <img src="images/warehouse.avif" class="w-100 rounded mb-3">
           <p>
-            Professional portfolio with animations, responsive layout, and dark/light mode support.
+            Ombordagi mavjud xomashyo miqdoriga qarab qancha mahsulot ishlab chiqarish mumkinligini hisoblaydigan
+             backend tizimi . Django + DRF yordamida mahsulotlar,
+              partiyalar va xomashyo o‘zaro bog‘lanib avtomatik kalkulyator yaratilgan.
+               API orqali CRUD funksiyalar, validatsiyalar va aniq hisob-kitob algoritmlari qo‘llanilgan.
           </p>
 
-          <h6>🔧 Technologies:</h6>
+          <h6>🔧 Texnologiyalar:</h6>
           <ul>
-            <li>HTML / CSS</li>
-            <li>Bootstrap</li>
-            <li>AOS Animations</li>
+            <li>Python</li>
+            <li>Django / DRF</li>
+            <li>SQLite / PostgreSQL</li>
           </ul>
         </div>
 
