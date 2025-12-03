@@ -5,12 +5,12 @@ body {
 
 /* Navbar */
 .navbar {
-  background-color: #161b22 !important;
+  background-color: #0d1117 !important;
   position: sticky;
   top: 0;
   width: 100%;
   z-index: 1000;
-  padding: 20px 50px;
+  padding: 10px 20px;
   transition: 0.3s;
 }
 
@@ -34,10 +34,6 @@ body {
   color: #75510e;
 }
 
-.nav-link.active {
-  color: #75510e !important;
-}
-
 .navbar-brand img {
   border-radius: 50%;
   filter: brightness(0.9);
@@ -45,7 +41,6 @@ body {
 
 .container > button {
   background-color: #75510e;
-;
 }
 
 /* HERO SECTION */
@@ -63,7 +58,7 @@ body {
 .hero-subtitle {
     font-size: 28px;
     font-weight: 500;
-    color: #58a6ff;
+    color: #fff;
 }
 
 .hero-desc {
@@ -73,19 +68,20 @@ body {
 }
 
 .highlight {
-  color: #f1c40f;
+  color: #58a6ff;
 }
 
 .profile-img {
-    width: 280px;
-    padding: 5px;
-    border-radius: 20px;
+    width: 450px;
+    padding: 15px;
+    border-radius: 15px;
     background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+    margin-left: auto;
 }
 
 .profile-img img {
     width: 100%;
-    border-radius: 18px;
+    border-radius: 10px;
     display: block;
 }
 
@@ -112,7 +108,7 @@ body {
 
 .skill-icon {
   font-size: 50px;
-  color: #f2b01e;
+  color: #3b82f6;
 }
 
 /* PROJECT SECTION */
@@ -120,7 +116,7 @@ body {
 .project-card > img {
   background-color:#ddd;
   width: 300px;
-  height: 150px;
+  height: 250px;
 }
 .project-card h5 {
   font-weight: 600;
@@ -128,7 +124,7 @@ body {
 }
 
 .project-card p {
-  color: #555;
+  color: #fff;
   font-size: 0.9rem;
   min-height: 60px;
 }
